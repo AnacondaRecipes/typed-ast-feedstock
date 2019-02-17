@@ -1,7 +1,7 @@
 {% set name = "typed-ast" %}
-{% set version = "1.1.0" %}
+{% set version = "1.3.1" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "57fe287f0cdd9ceaf69e7b71a2e94a24b5d268b35df251a88fef5cc241bf73aa" %}
+{% set hash_value = "606d8afa07eef77280c2bf84335e24390055b478392e1975f96286d99d0cb424" %}
 
 package:
   name: {{ name|lower }}
