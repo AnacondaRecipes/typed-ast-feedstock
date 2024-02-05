@@ -1,5 +1,5 @@
-{% set name = typed-ast}
-{% set alt_name = name|replace('-','_')}
+{% set name = "typed-ast" %}
+{% set name_var = name|replace("-", "_") %}
 {% set version = "1.5.5" %}
 
 package:
@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/{{ alt_name }}/{{ alt_name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/t/{{ name_var }}/{{ name_var }}-{{ version }}.tar.gz
   sha256: 525a2d4088e70a9f75b08b3f87a51acc9cde640e19cc523c7e41aa355564ae27
 
 build:
